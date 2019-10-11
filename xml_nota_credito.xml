@@ -1,0 +1,62 @@
+<notaCredito id="comprobante" version="1.1.0">
+   <infoTributaria>
+      <ambiente>2</ambiente>
+      <tipoEmision>1</tipoEmision>
+      <razonSocial>QUIFATEX S.A.</razonSocial>
+      <nombreComercial>QUIFATEX S.A.</nombreComercial>
+      <ruc>1792063761471</ruc>
+      <claveAcceso>2608201904179206376147120020210000994710009947118</claveAcceso>
+      <codDoc>04</codDoc>
+      <estab>002</estab>
+      <ptoEmi>021</ptoEmi>
+      <secuencial>000099471</secuencial>
+      <dirMatriz>Av. Galo Plaza Lasso 10640 y Manuel Zambrano</dirMatriz>
+   </infoTributaria>
+   <infoNotaCredito>
+      <fechaEmision>26/08/2019</fechaEmision>
+      <dirEstablecimiento>AV. DE LAS AMERICAS S/N Y EUGENIO ALMAZAN - Guayaquil</dirEstablecimiento>
+      <tipoIdentificacionComprador>04</tipoIdentificacionComprador>
+      <razonSocialComprador>INSUMOS PROFESIONALES INSUPROF CIA. LTDA</razonSocialComprador>
+      <identificacionComprador>1792063761471</identificacionComprador>
+      <contribuyenteEspecial>5368</contribuyenteEspecial>
+      <obligadoContabilidad>SI</obligadoContabilidad>
+      <codDocModificado>01</codDocModificado>
+      <numDocModificado>007-020-000435771</numDocModificado>
+      <fechaEmisionDocSustento>13/09/2018</fechaEmisionDocSustento>
+      <totalSinImpuestos>15.56</totalSinImpuestos>
+      <valorModificacion>17.43</valorModificacion>
+      <moneda>DOLAR</moneda>
+      <totalConImpuestos>
+         <totalImpuesto>
+            <codigo>2</codigo>
+            <codigoPorcentaje>2</codigoPorcentaje>
+            <baseImponible>15.56</baseImponible>
+            <valor>1.87</valor>
+         </totalImpuesto>
+      </totalConImpuestos>
+      <motivo>DEVOLUCION DE MERCADERIAS</motivo>
+   </infoNotaCredito>
+   <detalles>
+      <detalle>
+         <codigoInterno>245257</codigoInterno>
+         <descripcion>CP RUBIO CAOBA INTENSO 66/55 60 GR</descripcion>
+         <cantidad>2.000</cantidad>
+         <precioUnitario>8.840000</precioUnitario>
+         <descuento>2.12</descuento>
+         <precioTotalSinImpuesto>15.56</precioTotalSinImpuesto>
+         <impuestos>
+            <impuesto>
+               <codigo>2</codigo>
+               <codigoPorcentaje>2</codigoPorcentaje>
+               <tarifa>12</tarifa>
+               <baseImponible>15.56</baseImponible>
+               <valor>1.87</valor>
+            </impuesto>
+         </impuestos>
+      </detalle>
+   </detalles>
+   <infoAdicional>
+      <campoAdicional nombre="ORIGEN">8008502679</campoAdicional>
+      <campoAdicional nombre="ID DEVOLUCION">617228</campoAdicional>
+   </infoAdicional>
+</notaCredito>

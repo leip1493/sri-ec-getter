@@ -1,0 +1,82 @@
+<factura id="comprobante" version="1.1.0">
+	<infoTributaria>
+		<ambiente>2</ambiente>
+		<tipoEmision>1</tipoEmision>
+		<razonSocial>ECOSYNC S.A.</razonSocial>
+		<nombreComercial>ECOSYNC S.A.</nombreComercial>
+		<ruc>1792063761471</ruc>
+		<claveAcceso>0509201901179206376147120020052050754120054076917</claveAcceso>
+		<codDoc>01</codDoc>
+		<estab>002</estab>
+		<ptoEmi>005</ptoEmi>
+		<secuencial>205075412</secuencial>
+		<dirMatriz>6 de Diciembre N32-525 Belgica El Batan</dirMatriz>
+	</infoTributaria>
+	<infoFactura>
+		<fechaEmision>05/09/2019</fechaEmision>
+		<dirEstablecimiento>6 de Diciembre N32-525 Belgica El Batan</dirEstablecimiento>
+		<contribuyenteEspecial>571</contribuyenteEspecial>
+		<obligadoContabilidad>SI</obligadoContabilidad>
+		<tipoIdentificacionComprador>04</tipoIdentificacionComprador>
+		<razonSocialComprador>ROBERTO AMAGUAYO</razonSocialComprador>
+		<identificacionComprador>0602775405001</identificacionComprador>
+		<direccionComprador>   </direccionComprador>
+		<totalSinImpuestos>17.96</totalSinImpuestos>
+		<totalSubsidio>6.97</totalSubsidio>
+		<totalDescuento>0.00</totalDescuento>
+		<totalConImpuestos>
+			<totalImpuesto>
+				<codigo>2</codigo>
+				<codigoPorcentaje>2</codigoPorcentaje>
+				<baseImponible>17.96</baseImponible>
+				<valor>2.15</valor>
+			</totalImpuesto>
+		</totalConImpuestos>
+		<propina>0</propina>
+		<importeTotal>20.11</importeTotal>
+		<moneda>DOLAR</moneda>
+		<pagos>
+			<pago>
+				<formaPago>20</formaPago>
+				<total>20.11</total>
+				<plazo>1</plazo>
+				<unidadTiempo>dias</unidadTiempo>
+			</pago>
+		</pagos>
+	</infoFactura>
+	<detalles>
+		<detalle>
+			<codigoPrincipal>Extra</codigoPrincipal>
+			<codigoAuxiliar>Extra</codigoAuxiliar>
+			<descripcion>Extra</descripcion>
+			<cantidad>10.868900</cantidad>
+			<precioUnitario>1.652000</precioUnitario>
+			<precioSinSubsidio>2.224696</precioSinSubsidio>
+			<descuento>0.00</descuento>
+			<precioTotalSinImpuesto>17.96</precioTotalSinImpuesto>
+			<detallesAdicionales>
+				<detAdicional nombre="Unidad" valor="Unidad">
+				</detAdicional>
+				<detAdicional nombre="PorcentajeDescuento" valor="0">
+				</detAdicional>
+			</detallesAdicionales>
+			<impuestos>
+				<impuesto>
+					<codigo>2</codigo>
+					<codigoPorcentaje>2</codigoPorcentaje>
+					<tarifa>12.00</tarifa>
+					<baseImponible>17.96</baseImponible>
+					<valor>2.15</valor>
+				</impuesto>
+			</impuestos>
+		</detalle>
+	</detalles>
+	<infoAdicional>
+		<campoAdicional nombre="Direccion">   </campoAdicional>
+		<campoAdicional nombre="Email">facturas@gasecosync.com</campoAdicional>
+		<campoAdicional nombre="FechaVencimiento">06/09/2019</campoAdicional>
+		<campoAdicional nombre="Vendedor">isla001 isla001</campoAdicional>
+		<campoAdicional nombre="Ciudad">QUITO</campoAdicional>
+		<campoAdicional nombre="CondPago">1 DIA</campoAdicional>
+	</infoAdicional>
+</factura>

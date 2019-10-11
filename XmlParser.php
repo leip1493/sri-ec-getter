@@ -8,6 +8,10 @@ class XmlParser{
 		$this->dom = $dom;
 	}
 
+	const FACTURA = '01';
+	const NOTA_CREDITO = '04';
+	const COMPROBANTE_RETENCION = '07';
+
 	/////////////////////
 	// INFO TRIBUTARIA //
 	/////////////////////	

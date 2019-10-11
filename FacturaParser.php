@@ -38,7 +38,7 @@ class FacturaParser extends XmlParser{
 		$detalle = $this->getNodes($this->dom, 'detalle');
 		$detalleHeaders = [
 			'codigoPrincipal', 'descripcion', 'cantidad', 'precioUnitario', 'precioSinSubsidio', 'descuento', 'precioTotalSinImpuesto',
-			'impuestos'
+			'impuestos', 'detallesAdicionales'
 		];
 		$detallesContent = [];	
 		foreach ($detalle as $index => $d) {
@@ -47,11 +47,11 @@ class FacturaParser extends XmlParser{
 				$rowDetalle[$header] = $this->getNodeData($d, $header, 0);
 			}
 			$rowDetalle['impuestos'] = $this->getDetallesImpuestos($index);
+			$rowDetalle['detallesAdicionales'] = $this->getDetallesAdicionales($index);
 			$detallesContent[$index] = $rowDetalle;
 		}
 		return $detallesContent;
 	}
-
 
 	////////////////////////////////////////
 	// INFO FACTURA - TOTAL CON IMPUESTOS //
@@ -113,6 +113,22 @@ class FacturaParser extends XmlParser{
 			$impuestoContent[$index] = $rowImpuesto;
 		}
 		return $impuestoContent;
+	}
+
+	/////////////////////////////////////
+	// DETALLES - DETALLES ADICIONALES //
+	/////////////////////////////////////
+	private function getDetallesAdicionales($position){
+		$infoAdicional = $this->getNode($this->dom, 'detallesAdicionales', $position);
+		$campoAdicional = $this->getNodes($this->dom, 'detAdicional');
+		$detallesContent = [];	
+		foreach ($campoAdicional as $index => $campo) {		
+			$detallesContent[$index] = [
+				'name' 	=> $campo->getAttribute('nombre'),
+				'value' => $campo->getAttribute('valor')
+			];
+		}
+		return $detallesContent;
 	}
 
 }
