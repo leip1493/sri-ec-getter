@@ -1,0 +1,51 @@
+<comprobanteRetencion id="comprobante" version="1.0.0">
+	<infoTributaria>
+		<ambiente>2</ambiente>
+		<tipoEmision>1</tipoEmision>
+		<razonSocial>BANCO INTERNACIONAL S A</razonSocial>
+		<nombreComercial>BANCO INTERNACIONAL</nombreComercial>
+		<ruc>1792063761471</ruc>
+		<claveAcceso>2608201907179206376147120010050030421340000000111</claveAcceso>
+		<codDoc>07</codDoc>
+		<estab>001</estab>
+		<ptoEmi>005</ptoEmi>
+		<secuencial>003042134</secuencial>
+		<dirMatriz>AV PATRIA E4 21 Y 9 DE OCTUBRE</dirMatriz>
+	</infoTributaria>
+	<infoCompRetencion>
+		<fechaEmision>26/08/2019</fechaEmision>
+		<contribuyenteEspecial>5368</contribuyenteEspecial>
+		<obligadoContabilidad>SI</obligadoContabilidad>
+		<tipoIdentificacionSujetoRetenido>04</tipoIdentificacionSujetoRetenido>
+		<razonSocialSujetoRetenido>INSUMOS PROFESIONALES INSUPROF CIA  LTDA</razonSocialSujetoRetenido>
+		<identificacionSujetoRetenido>1792063761471</identificacionSujetoRetenido>
+		<periodoFiscal>08/2019</periodoFiscal>
+	</infoCompRetencion>
+	<impuestos>
+		<impuesto>
+			<codigo>2</codigo>
+			<codigoRetencion>9</codigoRetencion>
+			<baseImponible>16.94</baseImponible>
+			<porcentajeRetener>10.00</porcentajeRetener>
+			<valorRetenido>1.70</valorRetenido>
+			<codDocSustento>22</codDocSustento>
+			<numDocSustento>048327000177596</numDocSustento>
+			<fechaEmisionDocSustento>26/08/2019</fechaEmisionDocSustento>
+		</impuesto>
+		<impuesto>
+			<codigo>1</codigo>
+			<codigoRetencion>344A</codigoRetencion>
+			<baseImponible>141.15</baseImponible>
+			<porcentajeRetener>2.00</porcentajeRetener>
+			<valorRetenido>2.82</valorRetenido>
+			<codDocSustento>22</codDocSustento>
+			<numDocSustento>048327000177596</numDocSustento>
+			<fechaEmisionDocSustento>26/08/2019</fechaEmisionDocSustento>
+		</impuesto>
+	</impuestos>
+	<infoAdicional>
+		<campoAdicional nombre="Direccion">10 DE AGOSTO N43 33 Y FALCONI SCT LA Y ALM MONTERO</campoAdicional>
+		<campoAdicional nombre="Telefono">3319602</campoAdicional>
+		<campoAdicional nombre="MailCliente">clientes1@montero.ec</campoAdicional>
+	</infoAdicional>
+</comprobanteRetencion>

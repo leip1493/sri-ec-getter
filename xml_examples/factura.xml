@@ -1,0 +1,97 @@
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+    <soap:Body>
+        <ns2:autorizacionComprobanteResponse xmlns:ns2="http://ec.gob.sri.ws.autorizacion">
+            <RespuestaAutorizacionComprobante>
+                <claveAccesoConsultada>0809201901099133185900120230150009498921357246816</claveAccesoConsultada>
+                <numeroComprobantes>1</numeroComprobantes>
+                <autorizaciones>
+                    <autorizacion>
+                        <estado>AUTORIZADO</estado>
+                        <numeroAutorizacion>0809201901099133185900120230150009498921357246816</numeroAutorizacion>
+                        <fechaAutorizacion>2019-09-08T02:06:00-05:00</fechaAutorizacion>
+                        <ambiente>PRODUCCIÓN</ambiente>
+                        <comprobante>
+                            <factura xmlns:ns2="http://www.w3.org/2000/09/xmldsig#" id="comprobante" version="2.1.0">
+                                <infoTributaria>
+                                    <ambiente>2</ambiente>
+                                    <tipoEmision>1</tipoEmision>
+                                    <razonSocial>ATIMASA S.A.</razonSocial>
+                                    <nombreComercial>ATIMASA S.A.</nombreComercial>
+                                    <ruc>0991331859001</ruc>
+                                    <claveAcceso>0809201901099133185900120230150009498921357246816</claveAcceso>
+                                    <codDoc>01</codDoc>
+                                    <estab>023</estab>
+                                    <ptoEmi>015</ptoEmi>
+                                    <secuencial>000949892</secuencial>
+                                    <dirMatriz>AV. DE LAS AMERICAS 406-GUAYAQUIL</dirMatriz>
+                                </infoTributaria>
+                                <infoFactura>
+                                    <fechaEmision>08/09/2019</fechaEmision>
+                                    <dirEstablecimiento>VIA PUERTO MARITIMO KM 6-GUAYAQUIL</dirEstablecimiento>
+                                    <contribuyenteEspecial>01477</contribuyenteEspecial>
+                                    <obligadoContabilidad>SI</obligadoContabilidad>
+                                    <tipoIdentificacionComprador>04</tipoIdentificacionComprador>
+                                    <razonSocialComprador>AMAGUAYO PILLAJO ROBERTO JOSE</razonSocialComprador>
+                                    <identificacionComprador>0602775405001</identificacionComprador>
+                                    <totalSinImpuestos>3.30</totalSinImpuestos>
+                                    <totalSubsidio>1.10</totalSubsidio>
+                                    <totalDescuento>0.00</totalDescuento>
+                                    <totalConImpuestos>
+                                        <totalImpuesto>
+                                            <codigo>2</codigo>
+                                            <codigoPorcentaje>0</codigoPorcentaje>
+                                            <baseImponible>0.00</baseImponible>
+                                            <valor>0</valor>
+                                        </totalImpuesto>
+                                        <totalImpuesto>
+                                            <codigo>2</codigo>
+                                            <codigoPorcentaje>2</codigoPorcentaje>
+                                            <baseImponible>3.30</baseImponible>
+                                            <valor>0.40</valor>
+                                        </totalImpuesto>
+                                    </totalConImpuestos>
+                                    <propina>0.00</propina>
+                                    <importeTotal>3.70</importeTotal>
+                                    <moneda>DOLAR</moneda>
+                                    <placa>POL0034</placa>
+                                    <pagos>
+                                        <pago>
+                                            <formaPago>01</formaPago>
+                                            <total>3.70</total>
+                                            <plazo>0</plazo>
+                                            <unidadTiempo>DIAS</unidadTiempo>
+                                        </pago>
+                                    </pagos>
+                                </infoFactura>
+                                <detalles>
+                                    <detalle>
+                                        <codigoPrincipal>0174</codigoPrincipal>
+                                        <descripcion>EXTRA CON ETANOL</descripcion>
+                                        <cantidad>2.000</cantidad>
+                                        <precioUnitario>1.652</precioUnitario>
+                                        <precioSinSubsidio>2.202</precioSinSubsidio>
+                                        <descuento>0.00</descuento>
+                                        <precioTotalSinImpuesto>3.30</precioTotalSinImpuesto>
+                                        <impuestos>
+                                            <impuesto>
+                                                <codigo>2</codigo>
+                                                <codigoPorcentaje>2</codigoPorcentaje>
+                                                <tarifa>12.00</tarifa>
+                                                <baseImponible>3.30</baseImponible>
+                                                <valor>0.40</valor>
+                                            </impuesto>
+                                        </impuestos>
+                                    </detalle>
+                                </detalles>
+                                <infoAdicional>
+                                    <campoAdicional nombre="PLACA">POL0034</campoAdicional>
+                                </infoAdicional>
+                            </factura>
+                        </comprobante>
+                        <mensajes/>
+                    </autorizacion>
+                </autorizaciones>
+            </RespuestaAutorizacionComprobante>
+        </ns2:autorizacionComprobanteResponse>
+    </soap:Body>
+</soap:Envelope>
